@@ -1,0 +1,36 @@
+.featured-brands {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  }
+  
+  .brands-slider {
+    margin-bottom: 40px;
+  }
+  
+  .brand-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+  }
+  
+  .brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand-logo {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .brand-card:hover .brand-logo {
+    filter: grayscale(0%);
+  }
+  
+  .slick-dots li button:before {
+    color: #001f3f;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #001f3f;
+  }

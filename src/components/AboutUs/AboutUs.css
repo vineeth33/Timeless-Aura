@@ -1,0 +1,51 @@
+.about-us {
+    padding: 6rem 2rem;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-us-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  .about-us-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-us-signature {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us {
+      padding: 4rem 1rem;
+    }
+  
+    .about-us-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-us-text {
+      font-size: 1rem;
+    }
+  
+    .about-us-signature {
+      font-size: 2rem;
+    }
+  }

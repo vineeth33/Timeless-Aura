@@ -1,0 +1,69 @@
+.welcome-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.welcome-content {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.welcome-title {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: 4px;
+}
+
+.highlight {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.separator {
+  width: 100px;
+  height: 2px;
+  background-color: var(--color-primary);
+  margin: 2rem auto;
+}
+
+.welcome-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  letter-spacing: 1px;
+}
+
+.explore-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--color-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: var(--color-primary);
+  color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .welcome-title {
+    font-size: 2.5rem;
+  }
+
+  .welcome-description {
+    font-size: 1rem;
+  }
+}
