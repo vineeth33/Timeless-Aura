@@ -153,7 +153,6 @@ function App() {
             </motion.button>
           </div>
         </motion.section>
-        <LuxuryCarousel />
         <CollectionsGallery 
           id="collections-gallery"
           addToCart={addToCart} 
